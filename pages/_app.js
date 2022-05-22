@@ -16,7 +16,7 @@ html{
 body{
   background-color:#fafafa;
   min-height:100vh;
-  padding: 1rem;
+  /* padding: 1rem; */
   margin-top:0;
   font-family:Verdana;
 }
