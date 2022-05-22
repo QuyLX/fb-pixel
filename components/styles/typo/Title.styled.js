@@ -21,7 +21,7 @@ export const Title = styled.h1`
     width: 100%;
     position: absolute;
     height: 20px;
-    background-color: ${(props) => (props.primary == true ? color.main : color.blue4)};
+    background-color: ${(props) => (props.primary == true ? color.blue2 : color.blue4)};
     bottom: 0;
     left: 0;
     z-index: -1;

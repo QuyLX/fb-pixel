@@ -5,10 +5,10 @@ import * as size from "../../abstract/font";
 export const RecButton = styled.button`
   font-family: "Poppins", sans-serif;
   font-size: ${size.button};
-  color: ${color.main};
+  color: ${(props) => (props.primary == true ? color.blue2 : color.main)};
   font-weight: 400;
-  border-color: ${color.main};
+  border-color: ${(props) => props.primary == true ? color.blue2 : color.main};
   background-color: transparent;
   box-shadow: none;
-  padding: .5rem;
+  padding: 0.5rem;
 `;

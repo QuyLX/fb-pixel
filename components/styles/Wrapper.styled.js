@@ -6,4 +6,6 @@ export const Wrapper = styled.section`
   width: 100%;
   font-family: "Poppins";
   color: ${(props) => (props.primary ? color.blue3 : color.main)};
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 `;
