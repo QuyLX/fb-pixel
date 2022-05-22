@@ -13,7 +13,7 @@ const PixelBanner = () => {
               <TextBorder>
                 THE LAST PIXELS YOU’ll NEED TO SCALE SMART
               </TextBorder>
-              <SubTitle>
+              <SubTitle primary>
                 Enrich events with customer data so Facebook can find you the
                 best target. No more stupid spending.
               </SubTitle>
